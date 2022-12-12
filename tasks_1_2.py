@@ -16,6 +16,21 @@ class Technic:
         len_self = len(self.name)
         len_other = len(other.name)
         return len_self < len_other
+    
+    def __gt__(self, other: "Technic"):
+        len_self = len(self.name)
+        len_other = len(other.name)
+        return len_self > len_other
+    
+    def __ge__(self, other: "Technic"):
+        len_self = len(self.name)
+        len_other = len(other.name)
+        return len_self >= len_other
+    
+    def __le__(self, other: "Technic"):
+        len_self = len(self.name)
+        len_other = len(other.name)
+        return len_self <= len_other
 
     def price_of_product(self):
         print(
