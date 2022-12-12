@@ -28,5 +28,5 @@ class Technic:
 if __name__ == "__main__":
     a = Technic("product 123123", 150000, True)
     a.price_of_product()
-    b = Technic("product 253", 150000, True)
+    b = Technic("product 253", 15000, True)
     print(a > b)
